@@ -88,12 +88,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Jseld\OneDrive\Documents\SDK%27s\wxWidgets-3.1.7\include\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Jseld\OneDrive\Documents\SDK%27s\wxWidgets-3.1.7\include;C:\Users\Jseld\OneDrive\Documents\SDK%27s\wxWidgets-3.1.7\include\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Jseld\OneDrive\Documents\SDK%27s\wxWidgets-3.1.7\lib\vc_x64_lib;C:\Users\Jseld\OneDrive\Documents\SDK%27s\wxWidgets-3.1.7\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Jseld\OneDrive\Documents\SDK%27s\wxWidgets-3.1.7\lib;C:\Users\Jseld\OneDrive\Documents\SDK%27s\wxWidgets-3.1.7\lib\vc_lib;C:\Users\Jseld\OneDrive\Documents\SDK%27s\wxWidgets-3.1.7\lib\vc_x64_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -145,9 +145,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
+    <ClInclude Include="MainWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calcutator Events", "Calcutator Events\Calcutator Events.vcxproj", "{DD05E3CA-2FE0-42E3-8048-4DD0BD5A1B8F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calcutator Events", "Calcutator Events.vcxproj", "{DD05E3CA-2FE0-42E3-8048-4DD0BD5A1B8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +26,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {438A79A3-04F4-4AE1-999E-4AADC5C3B477}
+		SolutionGuid = {F51BACA4-AB00-4209-A9B1-3CCD7A26DA23}
 	EndGlobalSection
 EndGlobal

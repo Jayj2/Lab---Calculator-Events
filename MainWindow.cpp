@@ -40,7 +40,7 @@ MainWindow::MainWindow() : wxFrame(nullptr, wxID_ANY, "Buttons", wxPoint(200, 20
 	
 	textBox = new wxTextCtrl(this, wxID_ANY, "", wxPoint(10, 10), wxSize(200,50));
 	
-	
+	 
 }
 
 void MainWindow::OnButtonClick(wxCommandEvent& evt)
